@@ -202,4 +202,43 @@
     margin-top: -130px;
     width: 40% !important;
   }
+
+  /* action games section */
+
+  .action-game-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .action-game-item img {
+    width: 30%;
+  }
+
+  .action-game-item h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  /* footer section */
+
+  .icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .policy a {
+    margin-top: 30px;
+  }
+  .copyright {
+    margin-top: 40px;
+  }
 }
