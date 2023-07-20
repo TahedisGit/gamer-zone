@@ -1,0 +1,26 @@
+@media screen and (max-width: 576px) {
+  .nav {
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .heading {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-items {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .general {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .social {
+    margin-top: 30px;
+  }
+}
