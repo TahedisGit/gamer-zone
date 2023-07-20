@@ -164,4 +164,42 @@
     margin-top: 10px;
     text-align: center;
   }
+
+  /* instant play section */
+
+  .play {
+    flex-direction: column-reverse;
+  }
+
+  .play-content {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .play-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+  }
+
+  .play-desc {
+    font-size: 15px;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .play-img {
+    width: 80%;
+  }
+
+  .play-img-1 {
+    width: 90% !important;
+    float: right;
+  }
+
+  .play-img-2 {
+    margin-left: -20px;
+    margin-top: -130px;
+    width: 40% !important;
+  }
 }
