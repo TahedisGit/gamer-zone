@@ -1,5 +1,6 @@
 /* work sens fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,800&family=Work+Sans:wght@400;600;700;800;900&display=swap");
+/* shared styles */
 
 * {
   font-family: "Lato", sans-serif;
@@ -7,6 +8,24 @@
   font-family: "Work Sans", sans-serif;
 }
 
+.btn-primary {
+  border-radius: 48px;
+  background: #ff42a5;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  border: 0px;
+}
+
+.banner-img {
+  width: 50%;
+}
+
+.banner-img img {
+  width: 100%;
+}
 /* nav styles */
 
 .nav {
@@ -69,4 +88,65 @@
 
 .title {
   font-size: 1.1rem;
+}
+
+/* banner styles */
+.banner {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 35px 140px;
+  margin-top: 30px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.banner-content {
+  width: 50%;
+}
+
+.banner-title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.sub-title {
+  font-size: 6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.banner-desc {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin-bottom: 15px;
+}
+
+.banner-desc i {
+  margin-right: 12px;
+}
+
+.download {
+  color: #ff42a5;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 4px 5px 4px 6px;
+}
+
+.banner-btn {
+  margin-top: 2.5rem;
+}
+
+.go-btn {
+  background: #4ec5f7;
+  margin-left: 24px;
 }
