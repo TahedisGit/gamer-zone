@@ -1,7 +1,7 @@
 /* work sens fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,800&family=Work+Sans:wght@400;600;700;800;900&display=swap");
-/* shared styles */
 
+/* shared styles */
 * {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
@@ -19,15 +19,7 @@
   border: 0px;
 }
 
-.banner-img {
-  width: 50%;
-}
-
-.banner-img img {
-  width: 100%;
-}
 /* nav styles */
-
 .nav {
   display: flex;
   padding: 30px 150px 0px;
@@ -133,6 +125,13 @@
 .banner-desc i {
   margin-right: 12px;
 }
+.banner-img {
+  width: 50%;
+}
+
+.banner-img img {
+  width: 100%;
+}
 
 .download {
   color: #ff42a5;
@@ -149,4 +148,61 @@
 .go-btn {
   background: #4ec5f7;
   margin-left: 24px;
+}
+
+/* gamer */
+main {
+  padding: 50px 40px;
+}
+
+.gamer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gamer-img {
+  width: 60%;
+}
+
+.gamer-img img {
+  width: 100%;
+}
+
+.gamer-content {
+  text-align: right;
+  width: 50%;
+}
+
+.content-title {
+  font-size: 50px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content-desc {
+  margin-top: 20px;
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.gamer-btn {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.texts {
+  color: #534c64;
+  text-align: right;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.texts p {
+  font-weight: 700;
 }

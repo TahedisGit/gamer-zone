@@ -79,4 +79,47 @@
   .banner-img img {
     width: 75%;
   }
+
+  /* gamer section */
+  main {
+    padding: 50px 40px;
+  }
+
+  .gamer {
+    flex-direction: column;
+  }
+
+  .gamer-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .gamer-img img {
+    width: 80%;
+  }
+
+  .gamer-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-title {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .content-desc {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .gamer-btn {
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+
+  .texts {
+    text-align: center;
+    font-size: 25px;
+  }
 }
